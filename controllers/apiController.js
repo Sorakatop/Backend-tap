@@ -26,7 +26,10 @@ module.exports = {
     },
     //create game
     createGame : (req,res)=>{
-        Games.create(req.body)
+        Games.create({
+            state_id:1,
+            cells_id:null
+        })
         .then(data=>{res.json(data)})
         .catch(err=>{console.log(err)})
     },
