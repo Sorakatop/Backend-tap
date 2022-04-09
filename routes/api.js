@@ -3,7 +3,7 @@ const router = require('express').Router();
 const gameRouter = require('./api/game');
 
 
-router.use('/game',gameRouter);
+router.use('/games', gameRouter);
 
 
 module.exports = router

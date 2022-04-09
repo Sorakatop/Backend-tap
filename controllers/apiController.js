@@ -1,6 +1,4 @@
 const {Games,State,Cells} = require ('../models');
-
-
 module.exports = {
     //crear states
     createStates : (req,res)=>{
@@ -25,12 +23,13 @@ module.exports = {
         res.json(game);
     },
     //create game
-    createGame : (req,res)=>{
-        Games.create({
+    createGame : async (req,res)=>{
+        await Games.create({
             state_id:1,
             cells_id:null
         })
-        .then(data=>{res.json(data)})
+        .then(data=>{res.json({data})
+        })
         .catch(err=>{console.log(err)})
     },
     //delete

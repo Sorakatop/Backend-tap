@@ -1,18 +1,19 @@
 {
-  "name": "test-cli",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "test-tap",
+  "version": "0.0.1",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "test": "jest"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "express": "^4.17.3",
+    "http-errors": "^1.8.1",
     "mysql2": "^2.3.3",
-    "sequelize": "^6.18.0",
-    "sequelize-cli": "^6.4.1"
+    "sequelize": "^6.18.0"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "sequelize-cli": "^6.4.1",
+    "supertest": "^6.2.2"
   }
 }
