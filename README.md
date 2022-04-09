@@ -24,7 +24,7 @@ _una vez que termina las dependencias, ejecutar el comando_
 npm start
 ```
 
-_Y repite_
+_Server is running on port 3000_
 
 ```
 Server running 🐯
