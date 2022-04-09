@@ -55,4 +55,4 @@ _Menciona las herramientas que utilizaste para crear tu proyecto_
 * [Jest](https://www.npmjs.com/package/jest) - Paquete de testeo
 #
 ---
-⌨️ con ❤️ por [Villanuevand](https://github.com/Sorakatop/) 🌠
+⌨️ con ❤️ por [Gonzalo](https://github.com/Sorakatop/) 🌠
