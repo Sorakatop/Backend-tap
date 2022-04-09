@@ -1,6 +1,5 @@
 // requires
 const express = require ('express');
-var createError = require('http-errors');
 const apiRouter = require('./routes/api');
 const app=express();
 //require('./db');

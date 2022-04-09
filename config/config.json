@@ -1,22 +1,22 @@
 {
   "development": {
-    "username": "vkWbVD7h3Y",
-    "password": "NZvyqFG7Iz",
-    "database": "vkWbVD7h3Y",
+    "username": "wRIa5vVepY",
+    "password": "NkmlW1b9JW",
+    "database": "wRIa5vVepY",
     "host": "remotemysql.com",
     "dialect": "mysql"
   },
   "test": {
-    "username": "vkWbVD7h3Y",
-    "password": "NZvyqFG7Iz",
-    "database": "vkWbVD7h3Y",
+    "username": "wRIa5vVepY",
+    "password": "NkmlW1b9JW",
+    "database": "wRIa5vVepY",
     "host": "remotemysql.com",
     "dialect": "mysql"
   },
   "production": {
-    "username": "vkWbVD7h3Y",
-    "password": "NZvyqFG7Iz",
-    "database": "vkWbVD7h3Y",
+    "username": "wRIa5vVepY",
+    "password": "NkmlW1b9JW",
+    "database": "wRIa5vVepY",
     "host": "remotemysql.com",
     "dialect": "mysql"
   }

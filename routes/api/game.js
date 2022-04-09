@@ -1,7 +1,9 @@
-const {createStates, showGames, createGame ,deleteGame,updateGame} = require('../../controllers/apiController');
+const {createStates, showGames, createGame ,deleteGame,updateGame, showGame} = require('../../controllers/apiController');
 const router = require('express').Router();
-//enruote to /api/game
+//see games
 router.get('/',showGames)
+//game
+router.get('/:id',showGame)
 //create game
 router.post('/',createGame)
 //delete game

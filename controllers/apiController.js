@@ -1,4 +1,6 @@
 const {Games,State,Cells} = require ('../models');
+
+
 module.exports = {
     //crear states
     createStates : (req,res)=>{
@@ -23,15 +25,33 @@ module.exports = {
         res.json(game);
     },
     //create game
-    createGame : async (req,res)=>{
-        await Games.create({
-            state_id:1,
-            cells_id:null
-        })
-        .then(data=>{res.json({data})
-        })
+    createGame : async(req,res)=>{
+        !req.body.state_id?req.body.state_id="1":req.body.state_id
+        await Games.create(req.body)
+        .then(data=>{res.json(data)})
         .catch(err=>{console.log(err)})
+        
     },
+     //see a particular game
+        showGame : async (req,res)=>{
+            const game = await Games.findOne({
+                where:{
+                    id:req.params.id
+                },
+                associations:{
+                    include:[
+                        {
+                            model:State,
+                            
+                        },
+                        {
+                            model:Cells,
+                        }
+                    ]
+                }
+            })
+            res.json(game);
+        } ,
     //delete
     deleteGame : (req,res)=>{
         Games.destroy({
