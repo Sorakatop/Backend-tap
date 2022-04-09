@@ -46,12 +46,6 @@ _Testing con_
 ```
 npx jest
 ```
-
-
-## Despliegue 📦
-
-_Agrega notas adicionales sobre como hacer deploy_
-
 ## Construido con 🛠️
 
 _Menciona las herramientas que utilizaste para crear tu proyecto_
