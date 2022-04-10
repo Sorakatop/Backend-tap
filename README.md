@@ -37,12 +37,33 @@ Get game     => Trae la data que especifiquemos /:id
 Delete Game  => Borra una data que le digamos mediante el parametro /:id
 Post games   => Crea un juego nuevo. Si no ponemos datos esta como default juego Created
 Post states  => Podemos crear estados por si queremos realizar mas estados
-PUT game     => Nos permite modificar un juego,⚠ Necesitamos inservar los valores por 1-"WON" o 2-"LOST"⚠
+PUT game     => Nos permite modificar un juego,
+              🎃 Necesitamos inservar los valores por 1-"WON" o 2-"LOST"🎃
 ```
 ## Ejecutando las pruebas ⚙️
 
-_Testing con_
+_Api Consultas_
+##🧰 Herramientas
+* [Thunder Client](https://www.npmjs.com/package/express)  - Plugin VSC
+* [PostMan](https://www.postman.com/)  - Postman ApiPlatform
 
+
+_Data_
+```
+Variantes"state_id"
+null=1
+1:created
+2:won
+3:lost
+-----------------------
+{
+    "state_id":1,
+    "cells_id":null
+}
+-----------------------
+```
+
+_Testing con_
 ```
 npx jest
 ```
