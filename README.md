@@ -6,17 +6,20 @@ _Challengue realizado para TAP, backend en nodeJs, Sequelize y Php_
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
-
-
 ### Pre-requisitos 📋
+
+🧰 Herramientas
+
+* [Thunder Client](https://www.npmjs.com/package/express)  - Plugin VSC
+* [PostMan](https://www.postman.com/)  - Postman ApiPlatform
+
+### Instalación 🔧
 
 _Install dependencies_
 
 ```
 npm i
 ```
-
-### Instalación 🔧
 
 _una vez que termina las dependencias, ejecutar el comando_
 
@@ -31,6 +34,7 @@ Server running 🐯
 ```
 
 _Podemos realizar las siguientes consultas_
+
 ```
 Get games    => Trae toda la Data
 Get game     => Trae la data que especifiquemos /:id
@@ -43,12 +47,9 @@ PUT game     => Nos permite modificar un juego,
 ## Ejecutando las pruebas ⚙️
 
 _Api Consultas_
-##🧰 Herramientas
-* [Thunder Client](https://www.npmjs.com/package/express)  - Plugin VSC
-* [PostMan](https://www.postman.com/)  - Postman ApiPlatform
-
 
 _Data_
+
 ```
 Variantes"state_id"
 null=1
@@ -64,6 +65,7 @@ null=1
 ```
 
 _Testing con_
+
 ```
 npx jest
 ```
@@ -72,8 +74,13 @@ npx jest
 _Menciona las herramientas que utilizaste para crear tu proyecto_
 
 * [Express](https://www.npmjs.com/package/express)  - Framework web backend
+
 * [Sequelize](https://sequelize.org/) - Manejador de conecciones
+
 * [Jest](https://www.npmjs.com/package/jest) - Paquete de testeo
+
 #
+
 ---
+
 ⌨️ con ❤️ por [Gonzalo](https://github.com/Sorakatop/) 🌠
